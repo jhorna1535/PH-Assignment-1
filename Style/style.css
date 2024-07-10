@@ -1,0 +1,357 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.container{
+    margin: 0px 150px;
+    font-family: "Azeret Mono", monospace;
+}
+
+/* all style */
+.all-subtitle{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    
+}
+.all-des{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    padding: 0px 144px;
+}
+
+/* navber section start here */
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.resume-downlode > button{
+    padding: 12px;
+    border-radius:8px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.8;
+}
+.resume-downlode > button > a{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    text-align: center;
+}
+/* navber section ends here */
+
+
+/* hero-section start here */
+#hero{
+    height: auto;
+    background-image: url(../assets/Hero-bg.png);
+}
+.hero-section{
+    margin-top: 26px ;
+    text-align: center;
+}
+.hero-section > img{
+    width: 240px ;
+    height: 240px;
+    margin-top: 26px;
+}
+.hero-section > h1{
+    color: rgb(13, 19, 33);
+font-size: 48px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+}
+.hero-section > p{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+padding: 0px 20px;
+}
+.hero-section > button{
+    padding: 21px 24px ;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: black;
+    margin-bottom: 26px;
+}
+.hero-section > button > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/*--------------------------------
+     hero-section ends here 
+---------------------------------*/
+
+/*--------------------------------
+   developer section start here 
+----------------------------------*/
+
+#development-section{
+margin-top: 74px;
+background-color: rgba(13, 19, 33, 0.02);
+padding: 80px 97px;
+}
+.development-title{
+    text-align: center;
+}
+.development-title > h2{
+color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+letter-spacing: 0%;
+}
+.development-title > p{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.development-main1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.development-main1 > h2{
+color: rgba(13, 19, 33, 0.7);
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 0%;
+text-align: left;
+}
+.develop-1{
+    padding-right: 78px;
+}
+.development-main1 > p{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+}
+.develop-btn{
+    margin:32px 0px ;
+    padding: 12px 20px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    border-radius: 8px;
+
+}
+.develop-btn > a{
+text-decoration: none;
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 600;
+letter-spacing: 0%;
+text-align: center;
+}
+.development-main2{
+        display: flex;
+        padding: 48px;
+        border-radius: 16px;
+        background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.develop-2{
+    margin-left: 20px;
+}
+/*--------------------------------------
+      developer section ends here 
+----------------------------------------*/
+
+/*--------------------------------------
+      Inspiration section start here
+----------------------------------------*/
+
+#inspiration-section{
+    text-align: center;
+    margin-top: 40px;
+}
+.inspiration-2{
+    margin-top:48px ;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
+}
+.inspiration-2 > iframe{
+    border-radius: 16px;
+}
+/* Inspiration section end here */
+/* Current Target section start here */
+#current-target{
+    margin-top: 150px;
+}
+.current-target-1{
+    text-align: center;
+}
+.current-target-2{
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+}
+.current-1{
+    border-radius: 16px;
+    padding: 40px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.current-1 > a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.current-2{
+ background-color: rgba(0, 76, 232, 0.05);
+}
+.current-3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+/*-------------------------------------
+    Current Target section ends here
+---------------------------------------*/
+
+/* next Target section start here */
+#next-target{
+    margin-top: 110px;
+}
+.next-1{
+    text-align: center;
+}
+.next-2-1{
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    padding: 40px ;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+.react-js{
+    padding: 0px 10px;
+    margin-left: 10px;
+}
+.react-js > h4{
+    color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.react-js > p{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+}
+.react-js >a{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
+/* next Target section ends here */
+/* support section start here */
+#support-section{
+
+    background-image: url(../assets/handshake.jpg);
+    height: 313px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    padding: 64px 48px;
+    
+}
+#support-section > h2{
+color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+#support-section > p{
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+#support-section > input{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    padding: 19px 20px ;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    font-size: 16px ;
+}
+#support-section > .submit{
+    border-radius: 8px;
+    padding: 17px 20px;
+    background: rgb(255, 255, 255);
+    width: 120px ;
+    height: 57px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    font-size: 16px;
+    margin-top: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+/* support section ends here */
+/* footer section start here */
+footer{
+    background-color: rgba(13, 19, 33, 0.03);
+    height: 100px;
+    margin-top: 80px;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.footer-left > p{
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+}
+.footer-right > a{
+    margin-left: 10px;
+}
+/* footer section ends here */
